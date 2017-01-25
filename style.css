@@ -1,0 +1,42 @@
+body
+{
+	background: #333;
+	cursor: pointer;
+}
+#gameName
+{
+	color: #fff;
+	font-family: "HelveticaNeue-UltraLight";
+	font-size: 36px;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+	
+}
+#map
+{
+	display: block;
+	background: #fff;
+	margin: 50px auto 0px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#player, #enemy, #stats, #missile
+{
+	display: block;
+	margin: -500px auto 0px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+#changeBtn
+{
+	display: block;
+	margin: 50px auto 0px;
+	width: 200px;
+    height: 30px;
+	color: black;
+	font-family: "HelveticaNeue-UltraLight";
+	font-size: 20px;
+	text-align: center;
+}
